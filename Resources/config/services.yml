@@ -1,0 +1,7 @@
+parameters:
+    multiverse_utils_debug.twig.debug.class: Multiverse\Utils\DebugBundle\Twig\DebugTwigExtension
+services:
+    multiverse_utils_debug.twig.extension:
+        class: %multiverse_utils_debug.twig.debug.class%
+        tags:
+            -  { name: 'twig.extension' }

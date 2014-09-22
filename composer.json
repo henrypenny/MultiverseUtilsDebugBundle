@@ -1,0 +1,28 @@
+{
+    "name": "multiverse/utils/debug-bundle",
+    "type": "symfony-bundle",
+    "description": "Add debug capability to symfony/twig",
+    "homepage": "https://github.com/henrypenny/MultiverseUtilsDebugBundle",
+    "keywords": ["array", "cms", "admin", "matrix"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Multiverse",
+            "email": "henrypenny@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.3"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": { "Multiverse\\Utils\\DebugBundle": "" }
+    },
+    "target-dir": "Multiverse/Utils/MatrixBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1-dev"
+        }
+    }
+}
