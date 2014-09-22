@@ -19,7 +19,7 @@
     "autoload": {
         "psr-0": { "Multiverse\\Utils\\DebugBundle": "" }
     },
-    "target-dir": "Multiverse/Utils/MatrixBundle",
+    "target-dir": "Multiverse/Utils/DebugBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.0.1-dev"
